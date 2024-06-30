@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(to right,rgb(0,255,200),rgb(255,200,0));
+
+}
+.container{
+       margin: auto;
+       text-align: center;
+}
+.image-box{
+    width: 100%;
+}
+.image-box input[type="radio"]{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #555;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+   -webkit-transition: all 0.75 ease-in-out;
+   -moz-transition: all 0.75 ease-in-out;
+   -ms-transition: all 0.75 ease-in-out;
+   -o-transition: all 0.75 ease-in-out;
+   transition: all 0.75 ease-in-out;
+}
+.image-box input[type="radio"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #000;
+}
+#img-01{
+    background-image:url(https://th.bing.com/th/id/R.9dabc7592d9553eb621acf80662ce680?rik=ka5mgqnJGnBK2Q&riu=http%3a%2f%2fwww.photosdaily.com%2fwp-content%2fuploads%2f2012%2f12%2fHappy-Cat.jpg&ehk=bT%2bgcbGMsLBaJUz9E5TJv5b2qMZKgJ3h1BLrGtSjkx8%3d&risl=&pid=ImgRaw&r=0) ;
+    background-size: cover;
+}
+#img-02{
+    background-image:url(https://th.bing.com/th/id/OIP.oSSQTOcjQZvxI-6fa3iMxgHaE8?rs=1&pid=ImgDetMain) ;
+    background-size: cover;
+}
+#img-03{
+    background-image:url(https://th.bing.com/th/id/OIP.TzP2op3lkhlTh6oOHamacAHaHa?rs=1&pid=ImgDetMain) ;
+    background-size: cover;
+}
+#img-04{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg);
+    background-size: cover;
+}
+#img-05{
+    background-image:url(https://cdn.pixabay.com/photo/2013/12/12/03/09/kitten-227011_1280.jpg) ;
+    background-size: cover;
+}
+.image-bg{
+    width: 50%;
+    height: 500px;
+    margin-top: 10px;
+    border: ipx solid #222;
+    box-shadow: 0 0 5px #000;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+#img-01:checked~ .image-bg{
+    background-image: url(https://th.bing.com/th/id/R.9dabc7592d9553eb621acf80662ce680?rik=ka5mgqnJGnBK2Q&riu=http%3a%2f%2fwww.photosdaily.com%2fwp-content%2fuploads%2f2012%2f12%2fHappy-Cat.jpg&ehk=bT%2bgcbGMsLBaJUz9E5TJv5b2qMZKgJ3h1BLrGtSjkx8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+#img-02:checked~ .image-bg{
+    background-image: url(https://th.bing.com/th/id/OIP.oSSQTOcjQZvxI-6fa3iMxgHaE8?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+#img-03:checked~ .image-bg{
+    background-image: url(https://th.bing.com/th/id/OIP.TzP2op3lkhlTh6oOHamacAHaHa?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+#img-04:checked~ .image-bg{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg);
+    background-size: cover;
+}
+#img-05:checked~ .image-bg{
+    background-image: url(https://cdn.pixabay.com/photo/2013/12/12/03/09/kitten-227011_1280.jpg);
+    background-size: cover;
+}
